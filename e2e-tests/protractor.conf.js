@@ -2,7 +2,8 @@ exports.config = {
   allScriptsTimeout: 11000,
 
   specs: [
-    '*.js'
+    '*.js',
+    '../app/**/protractor.js'
   ],
 
   capabilities: {
