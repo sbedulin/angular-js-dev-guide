@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.1/angular.min.js"></script>
+    <script src="scope.js"></script>
+</head>
+<body ng-app="scopeExample">
+    <div ng-controller="ScopeTestController">
+        Your name:
+        <input type="text" ng-model="username">
+        <button ng-click='sayHello()'>greet</button>
+        <hr>
+        {{greeting}}
+    </div>
+</body>
+</html>
